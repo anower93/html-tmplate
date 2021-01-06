@@ -55,7 +55,10 @@ header{
 
 .experience{
     height: 500px;
-    background-image: url("assets/img/experience");
+    background-image: url("assets/img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
  
   
 }
@@ -75,5 +78,14 @@ footer{
 
 #left-border{
     border-left: 7px solid;
-    border-image: linear-gradient(180deg tomato green);
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+    background: white;
+}
+
+#right-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
 }
