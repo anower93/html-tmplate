@@ -52,3 +52,28 @@ header{
     background-repeat: no-repeat;
     background-position: right;
 }
+
+.experience{
+    height: 500px;
+    background-image: url("assets/img/experience");
+ 
+  
+}
+.single-exp{
+    box-shadow: 10px 10px 50px gray;
+    border-radius: 10px;
+    height: 80%;
+}
+
+
+
+footer{
+    text-align: center;
+    margin-top: 100px;
+   
+}
+
+#left-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg tomato green);
+}
